@@ -93,3 +93,18 @@ span{
   margin-top: 3px;
 
 }
+
+.biao_1{
+  position: absolute;
+  left: 0;
+  height: 90rpx;
+  width: 10rpx;
+  background: orange;
+  font-size: "微软雅黑";
+  font-weight: bold !important;
+}
+.yang{
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+}

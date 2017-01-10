@@ -7,7 +7,7 @@
 </view>
 <view class="h_content">
   <view class="content_left">
-  <view class="con_item" wx:for="{{showName}}"><span>{{item.name}}</span></view>
+  <view class="con_item" wx:for="{{showName}}"> <label class="biao_1" wx:if="{{index==0}}"></label> <span wx:if="{{index!=0}}">{{item.name}}</span><span class="yang" wx:if="{{index==0}}">{{item.name}}</span></view>
 
   </view>
 

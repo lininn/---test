@@ -26,6 +26,18 @@ Page({
         },
          {
           "name":"联想Y家用",
+          "imgurl":"../../assets/img/s_1.png"
+        },
+         {
+          "name":"联想Y家用",
+          "imgurl":"../../assets/img/s_3.png"
+        },
+         {
+          "name":"联想Y家用",
+          "imgurl":"../../assets/img/s_4.png"
+        },
+         {
+          "name":"联想Y家用",
           "imgurl":"../../assets/img/s_5.png"
         }
       ]
