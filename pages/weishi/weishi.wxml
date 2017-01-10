@@ -15,6 +15,7 @@
    <view class="right_list" wx:for="{{cc}}" >
       <view>
       <image src="{{item.imgurl}}" ></image> <view class="list_wen">{{item.name}}</view>
+    
       </view>
      
    </view>
