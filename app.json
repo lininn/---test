@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/weishi/weishi",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "伟仕佳杰",
+    "navigationBarTextStyle":"black"
+  }
+}
