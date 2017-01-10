@@ -1,3 +1,5 @@
+<view class="container">
+
 <view class="header">
   <view class="h_input">
      <input type="text" placeholder="输入框"/><text>搜索</text>
@@ -10,11 +12,19 @@
   </view>
 
  <view class="content_right">
-   <view class="right_list">商品</view>
-   <view class="right_list">商品</view>
-   <view class="right_list">商品</view>
-   <view class="right_list">商品</view>
+   <view class="right_list" wx:for="{{cc}}" >
+      <view>
+      <image src="{{item.imgurl}}" ></image> <view class="list_wen">{{item.name}}</view>
+      </view>
+     
+   </view>
+  
+ 
  </view>
+
+
+</view>
+
 
 
 </view>

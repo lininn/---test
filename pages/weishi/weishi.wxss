@@ -1,3 +1,6 @@
+
+
+
 .header{
 width: 100%;
 height: 107rpx;
@@ -22,7 +25,8 @@ left: 50%;
   border-radius: 10rpx;
   text-indent: 10rpx;
   padding-left: 10rpx;
-  float: left
+  float: left;
+  font-size: 14px;
 }
 text{
   display: inline-block;
@@ -48,8 +52,9 @@ flex-direction: column;
 .h_content .content_right{
   float: right;
   width: 565rpx;
-  height:200rpx;
-  background: blue;
+  
+
+overflow: hidden;
 }
 
 .content_left .con_item{
@@ -69,5 +74,22 @@ span{
 
 .right_list{
   height: 250rpx;
-  width: 250rpx
+  width: 250rpx;
+
+  float: left;
+  margin: 20rpx;
+  margin-right: 0;
+  text-align: center;
+  border: 1px solid #d8d7d7;
+}
+.right_list image{
+  width: 196rpx;
+  height: 166rpx;
+  margin-top: 15rpx;
+}
+.list_wen{
+  font-size: 15px;
+  font-family: "微软雅黑";
+  margin-top: 3px;
+
 }
